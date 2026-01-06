@@ -2,6 +2,8 @@ import About from './About'
 import Banner from './Banner'
 import Program from'./Program'
 import WhyChoose from './WhyChoose'
+import Testimonial from './Testimonial'
+import FAQ from './FAQ'
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
     <About/>
     <Program/>
     <WhyChoose/>
+    <Testimonial/>
+    <FAQ/>
     
     </>
   )

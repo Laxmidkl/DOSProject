@@ -41,7 +41,7 @@ const WhyChoose = () => {
       <div className="max-w-6xl items-center justify-between mx-auto flex flex-col md:flex-row gap-10">
       
         {/* Left SIDE IMAGE */}
-        <div className="flex-1 flex justify-center h-[400px]">
+        <div className="flex-1 flex justify-center h-100">
           <img
             src={Img}
             alt="Why Choose Us"
@@ -55,7 +55,7 @@ const WhyChoose = () => {
         <div className=" flex-1">  
           <div className=" text-sm font-medium text-gray-700 ">At DOS, we provide a supportive and peaceful learning environment where students can focus, grow, and build confidence. Our experienced and friendly instructors guide each learner with personal attention, ensuring that every concept is understood clearly. With a modern, industry-relevant curriculum and a practical, hands-on teaching approach, we help students gain real skills they can use in the real world. All of this comes at an affordable cost, making quality education accessible for everyone.</div>
 
-        <div className=" space-y-4 mt-6 overflow-y-auto max-h-[400px] ">
+        <div className=" space-y-4 mt-6 overflow-y-auto max-h-100 ">
           {choose.map((c, i) => (
             <div key={i} className=" p-2 border-b border-gray-300 pb-3">
               {/* TITLE + ARROW */}
