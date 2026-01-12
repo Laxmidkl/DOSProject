@@ -3,6 +3,7 @@ import Home from './pages/LandingPage/Home'
 import Layout from './components/layout/Layout'
 import About from './pages/About/About'
 import Blog from './pages/Blog/Blog'
+import Gallery from './pages/gallery/Gallery'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Route path='' element ={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/blog' element={<Blog/>}/>
+    <Route path='/gallery' element={<Gallery/>}/>
 
     </Route>
 
